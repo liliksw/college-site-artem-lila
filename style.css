@@ -1,0 +1,124 @@
+.header{
+    display: flex;
+    justify-content: center;
+    font-size: 24px;
+    
+}
+nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 70px;
+}
+.logo{
+    width: 90px;
+    height: 90px;
+    position: relative;
+    right:500px;
+}
+.main{
+    background-image: url(images/im.jpg);
+    margin-left: 280px;
+     margin-top: 30px; 
+    background-repeat: no-repeat;
+    width: 1262px;
+    height: 831px;
+}
+.text{
+    position: relative;
+    left:  700px;
+    font-size: 50px;
+    font-weight: bold;
+    color: white;
+    padding: 20px;
+}
+.text1{
+     font-size: 25px;
+    color: white;
+    position: relative;
+    left:  750px;
+}
+.btn{
+    margin-top: 30px;
+    position: relative;
+    left:  870px;
+    font-size: 17px;
+    width: 200px;
+    height: 50px;
+    background-color: rgb(33, 165, 165);
+    color: white;
+    border-radius: 10px;
+    border: none;
+    font-weight: bold;
+}
+
+.benefits {
+    margin: 80px;
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    background-color:  rgb(33, 165, 165);
+    height: 200px;
+}
+
+.benefit-title {
+    padding: 30px;
+    font-weight: 700;
+    margin: 0;
+    font-size: 24px;
+    color: white;
+}
+
+.benefit-desc {
+    margin: 0;
+    margin-top: 20px;
+    font-size: 17px;
+    color: white;
+}
+
+.services {
+    margin-top: 20px;
+    padding: 20px;
+    font-size: 23px;
+    display: grid;
+    grid: repeat(2, 3fr) / repeat(3, 1fr);
+    place-items: center;
+}
+.kakrabotaem{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin-top: 20px;
+    font-size: 20px;
+    background-color:  rgb(33, 165, 165);
+    color: white;
+}
+.btn2{
+  margin-top: 30px;
+   font-size: 17px;
+    width: 200px;
+    height: 50px;
+    background-color: rgb(33, 165, 165);
+    color: white;
+    border-radius: 10px;
+    border: none;
+    font-weight: bold;
+}
+.end{
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    gap:150px;
+    background-color: rgb(226, 226, 226);
+}
+.end-1{
+    display: grid;
+    align-items: center;
+    gap: 20px;
+}
+a1{
+    font-size: 20px;
+}
+h2{
+    font-size: 27px;
+}
