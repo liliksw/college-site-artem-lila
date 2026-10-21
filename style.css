@@ -8,7 +8,7 @@ nav{
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 70px;
+    gap: 75px;
 }
 .logo{
     width: 90px;
